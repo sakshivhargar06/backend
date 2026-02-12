@@ -1,0 +1,82 @@
+body {
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 320px;
+    background: linear-gradient(#f7d94c, #f3c623);
+    border: 10px solid #e6b800;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 30px auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.basic {
+    background: #fff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.name {
+    font-size: 18px;
+}
+
+.hp {
+    font-size: 14px;
+}
+
+.image-box {
+    background: #fff;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.image-box img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.info {
+    background: #fff9d6;
+    padding: 8px;
+    margin-top: 6px;
+    border-radius: 6px;
+}
+
+.type {
+    font-size: 11px;
+    color: #444;
+    text-align: center;
+}
+
+.attack {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.attack p {
+    font-size: 12px;
+    margin: 4px 0;
+}
+
+.damage {
+    float: right;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    margin-top: 8px;
+}
